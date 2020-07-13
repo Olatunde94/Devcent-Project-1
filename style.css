@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 9px;
+    font-size: 12px;
 }
 img {
     width:15px;
@@ -116,6 +116,15 @@ header{
     background-image: url(images/robert.jpg);
     background-size: cover;
 }
+.section-3 h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.section-3 p{
+    text-align: center;
+    font-size: 1rem;
+}
 .section-3-box{
     display: flex;
     flex-direction: row;
@@ -142,12 +151,18 @@ header{
 }
 .section-3-right-image{
     margin-right: 1rem;
+
 }
 .section-3-right-images img{
     width: 70%;
 }
 .section-3-right-images p {
     font-size: 0.7rem;
+    text-align: justify;
+}
+.section-3-right-images li{
+    margin-right: 1rem;
+    list-style-type: none;
 }
 .section-3-right{
     margin-left: 1rem;
@@ -211,4 +226,3 @@ header{
     font-size: 2rem;
     margin-left: 2rem;
 }
-
